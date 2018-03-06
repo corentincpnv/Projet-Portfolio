@@ -74,6 +74,7 @@ h2 {
     flex-direction: column;
     width: 17rem;
     height: 100vh;
+    margin: 100px;
   }
   #sideNav .navbar-brand {
     display: flex;
@@ -164,4 +165,27 @@ a:hover, a:focus, a:active {
     font-size: 30px;
     background-color: #BD5D38;
     color : white;
+}
+.bouton-menu{
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius:12px 0 12px 0;
+  background: white;
+  border:none;
+  color:#BD5D38;
+  font:bold 20px Verdana;
+  padding:6px 0 6px 0;
+}
+.bouton-autres-pages{
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius:12px 0 12px 0;
+  background: white;
+  border:none;
+  color:#BD5D38;
+  font:bold 12px Verdana;
+  padding:6px 0 6px 0;
+}
+.inner{
+    margin-top: 60px;
 }

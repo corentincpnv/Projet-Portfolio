@@ -14,7 +14,7 @@ Src : https://github.com/BlackrockDigital/startbootstrap-resume
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Projet Portfolio</title>
+    <title><?= $titre;?></title>
 
     <!-- Bootstrap core CSS -->
     <link href="../Contenu/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -28,15 +28,29 @@ Src : https://github.com/BlackrockDigital/startbootstrap-resume
 
     <!-- Custom styles for this template -->
     <link href="../Contenu/css/resume.css" rel="stylesheet">
-
 </head>
-
 <body id="page-top">
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block" href="vue_accueil.php">Accueil</span>
-    </a>
+
+    <div class="navbar-brand">
+        <button type="button" class="bouton-menu" data-toggle="collapse" data-target=".nav-collapse">
+            AUTRES PAGES <span class="icon-chevron-down icon-white"></span>
+        </button>
+        <div class="nav-collapse collapse">
+            <ul class="nav nav-pills">
+                <li class="bouton-autres-pages"<?php if (!isset($_GET['action'])) echo 'class="active"'; ?>><a href="../index.php">Accueil</a></li>
+                <li class="bouton-autres-pages"<?php if (@$_GET['action']=="vue_portfolio") echo 'class="active"'; ?>><a href="../index.php?action=vue_portfolio">Exemples</a></li>
+                <li class="bouton-autres-pages"<?php if (@$_GET['action']=="vue_login") echo 'class="active"'; ?>><a href="../index.php?action=vue_login">
+                        <?php if(!isset($_SESSION['login'])) :?>
+                            Login
+                        <?php else :?>
+                            Logout
+                        <?php endif ?>
+                    </a></li>
+            </ul>
+        </div>
+    </div>
 </nav>
 <div id="content">
     <div class="inner">

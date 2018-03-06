@@ -12,6 +12,11 @@ function accueil()
 {
     require "../vue/vue_accueil.php";
 }
+function erreur($e)
+{
+    $_SESSION['erreur']=$e;
+    require "../Vue/vue_erreur.php";
+}
 
 //Affichage de la page de login
 function login()
