@@ -19,7 +19,7 @@ Src : https://github.com/BlackrockDigital/startbootstrap-resume
     <!-- Bootstrap core CSS -->
     <link href="../Contenu/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom fonts for this template -->
+    <!-- Custom fonts for this template 0-->
     <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
     <link href="../Contenu/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
@@ -35,11 +35,16 @@ Src : https://github.com/BlackrockDigital/startbootstrap-resume
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">Projet Portfolio</span>
-        <a action="">Accueil</a>
+        <span class="d-block" href="vue_accueil.php">Accueil</span>
     </a>
 </nav>
+<div id="content">
+    <div class="inner">
 
+        <?=$contenu ?>
+
+    </div>
+</div>
 <!-- Bootstrap core JavaScript -->
 <script src="../Contenu/vendor/jquery/jquery.min.js"></script>
 <script src="../Contenu/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

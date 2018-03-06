@@ -77,7 +77,6 @@ h2 {
   }
   #sideNav .navbar-brand {
     display: flex;
-    margin: auto auto 0;
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
@@ -158,4 +157,11 @@ a:hover, a:focus, a:active {
 .container{
     margin-top: 50px;
     margin-left: 80%;
+}
+.accueil{
+    text-align: left;
+    position:absolute;
+    font-size: 30px;
+    background-color: #BD5D38;
+    color : white;
 }
