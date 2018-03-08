@@ -17,8 +17,6 @@ function erreur($e)
     $_SESSION['erreur']=$e;
     require "Vue/vue_erreur.php";
 }
-
-//Affichage de la page de login
 function login()
 {
     if(isset($_POST) && !empty($_POST['login']) && !empty($_POST['pwd'])) {
@@ -27,15 +25,15 @@ function login()
 
         //Appel de la fonction qui vérifie si le login existe dans la BD et retourne le mot de passe
         //définie dans le modèle
-        $pwdFromBD= getPwdFromLogin($login);
+        $pwdFromBD= getPwdFromLogin(@$login);
 
         //on récupère bien un mot de passe
         if (isset($pwdFromBD) && !empty($pwdFromBD)) {
             if (password_verify($pwd, $pwdFromBD)) {
                 //on peut accéder au site. Attention ni la vue ni la fonction ci-dessous n'existe pas encore
-                $resultats = getPortfolioExemple();
+                $resultats = getListePortfolio();
                 $ligne = getLoginInfo($login);
-                require "../vue/vue_portfolioModify.php";
+                require "vue/vue_portfolioModify.php";
             } else {
                 $msg_err= 'Le mot de passe est incorrect';
                 require "vue/vue_login.php";
@@ -47,6 +45,5 @@ function login()
     } else {
         require "vue/vue_login.php";
     }
-    $resultatsType = getPortfolioExemple();
-    require "vue/vue_import_donnees.php";
+
 }

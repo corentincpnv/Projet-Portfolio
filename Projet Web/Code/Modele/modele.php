@@ -13,7 +13,25 @@ function getBD() {
     return $connexion;
 
 }
-function getlogin()
+//Fonction : vérifie le login de l'utilisateur
+//Sortie : résultat de la requête
+function getListePortfolio()
+{
+    $connexion = getBD();
+    $requete = "SELECT * FROM about, listofinterests, listofqualities";
+    $resultats = $connexion->query($requete);
+    return $resultats;
+}
+//Récupère les informations du login
+function getLoginInfo($login)
+{
+    $connexion = getBD();
+    $requete = "SELECT idLogin, loginName, loginType FROM login WHERE login='" . $login . "'";
+    $resultats = $connexion->query($requete);
+    $ligne = $resultats->fetch();
+    return $ligne;
+}
+/**function getlogin()
 {
     // Connexion à la BD et au serveur
     $connexion = getBD();
@@ -23,7 +41,7 @@ function getlogin()
     // Exécution de la requête
     $resultats = $connexion->query($requete);
     return $resultats;
-}
+} **/
 /**function getLogin($post)
 {
     // connexion à la BD snows
@@ -42,8 +60,8 @@ function getlogin()
     // Exécution de la requête et renvoi des résultats
     $resultats = $connexion->query($requete);
     return $resultats;
-} **/
-
+}
+*/
 //Fonction : vérifie le login de l'utilisateur
 //Sortie : résultat de la requête
 function getPwdFromLogin($login)
@@ -56,7 +74,7 @@ function getPwdFromLogin($login)
     } else {
         return '';
     }
-}
+}/**
 function ajoutLogin() //ajout d'un login
 {
     // Connexion à la BD et au serveur
@@ -80,7 +98,7 @@ function ajoutLogin() //ajout d'un login
         else
         {
             // doublon --> erreur
-            throw new Exception("Erreur : doublon sur la clé primaire IDSurf");
+            throw new Exception("Erreur : doublon sur la clé primaire idLogin");
         }
 
     }
@@ -131,7 +149,7 @@ function messages() {
     }
     return $message;
 }
-function Login()
+/**function Login()
 {
     if(empty($_POST['username']))
     {
@@ -179,3 +197,37 @@ function CheckLoginInDB($username,$password)
     }
     return true;
 }
+
+//Affichage de la page de login
+function login()
+{
+    if(isset($_POST) && !empty($_POST['login']) && !empty($_POST['pwd'])) {
+
+        extract($_POST);
+
+        //Appel de la fonction qui vérifie si le login existe dans la BD et retourne le mot de passe
+        //définie dans le modèle
+        $pwdFromBD= getPwdFromLogin(@$login);
+
+        //on récupère bien un mot de passe
+        if (isset($pwdFromBD) && !empty($pwdFromBD)) {
+            if (password_verify($pwd, $pwdFromBD)) {
+                //on peut accéder au site. Attention ni la vue ni la fonction ci-dessous n'existe pas encore
+                $resultats = getPortfolioExemple();
+                $ligne = getLoginInfo($login);
+                require "vue/vue_portfolioModify.php";
+            } else {
+                $msg_err= 'Le mot de passe est incorrect';
+                require "vue/vue_login.php";
+            }
+        } else {
+            $msg_err= 'Aucun utilisateur avec ce login n\'est défini pour cette application.';
+            require "vue/vue_login.php";
+        }
+    } else {
+        require "vue/vue_login.php";
+    }
+    $resultatsType = getPortfolioExemple();
+    require "vue/vue_import_donnees.php";
+}
+ **/

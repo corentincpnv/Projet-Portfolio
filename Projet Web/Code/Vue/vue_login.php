@@ -16,19 +16,19 @@ if (isset($msg_err) && !empty($msg_err)) {
 
 ?>
 
-    <form method="post" action="../index.php?action=login">
+    <form method="post" action="index.php?action=login">
         <div>
             <label>Login : </label>
         </div>
         <div>
-            <input type="text" size="40" name="username" required/>
+            <input type="text" size="40" name="login" required/>
         </div>
         <br/>
         <div>
             <label>Mot de passe : </label>
         </div>
         <div>
-            <input type="password" size="40" name="password" required/>
+            <input type="password" size="40" name="pwd" required/>
         </div>
         <br/>
 

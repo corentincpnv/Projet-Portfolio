@@ -17,17 +17,17 @@ Src : https://github.com/BlackrockDigital/startbootstrap-resume
     <title><?= $titre;?></title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../Contenu/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="Contenu/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template 0-->
     <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-    <link href="../Contenu/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="../Contenu/vendor/devicons/css/devicons.min.css" rel="stylesheet">
-    <link href="../Contenu/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+    <link href="Contenu/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="Contenu/vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="Contenu/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="../Contenu/css/resume.css" rel="stylesheet">
+    <link href="Contenu/css/resume.css" rel="stylesheet">
 </head>
 <body id="page-top">
 
@@ -39,9 +39,9 @@ Src : https://github.com/BlackrockDigital/startbootstrap-resume
         </button>
         <div class="nav-collapse collapse">
             <ul class="nav nav-pills">
-                <li class="bouton-autres-pages"<?php if (!isset($_GET['action'])) echo 'class="active"'; ?>><a href="../index.php">Accueil</a></li>
-                <li class="bouton-autres-pages"<?php if (@$_GET['action']=="vue_exemple") echo 'class="active"'; ?>><a href="../index.php?action=vue_exemple.php">Exemples</a></li>
-                <li class="bouton-autres-pages"<?php if (@$_GET['action']=="vue_login") echo 'class="active"'; ?>><a href="../index.php?action=vue_login.php">
+                <li class="bouton-autres-pages"<?php if (!isset($_GET['action'])) echo 'class="active"'; ?>><a href="index.php">Accueil</a></li>
+                <li class="bouton-autres-pages"<?php if (@$_GET['action']=="vue_portfolio") echo 'class="active"'; ?>><a href="index.php?action=vue_portfolio.php">Exemples</a></li>
+                <li class="bouton-autres-pages"<?php if (@$_GET['action']=="vue_login") echo 'class="active"'; ?>><a href="index.php?action=vue_login.php">
                         <?php if(!isset($_SESSION['login'])) :?>
                             Login
                         <?php else :?>
@@ -60,14 +60,14 @@ Src : https://github.com/BlackrockDigital/startbootstrap-resume
     </div>
 </div>
 <!-- Bootstrap core JavaScript -->
-<script src="../Contenu/vendor/jquery/jquery.min.js"></script>
-<script src="../Contenu/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="Contenu/vendor/jquery/jquery.min.js"></script>
+<script src="Contenu/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 <!-- Plugin JavaScript -->
-<script src="../Contenu/vendor/jquery-easing/jquery.easing.min.js"></script>
+<script src="Contenu/vendor/jquery-easing/jquery.easing.min.js"></script>
 
 <!-- Custom scripts for this template -->
-<script src="../Contenu/js/resume.min.js"></script>
+<script src="Contenu/js/resume.min.js"></script>
 
 </body>
 
