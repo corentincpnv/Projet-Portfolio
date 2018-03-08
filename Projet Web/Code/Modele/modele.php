@@ -112,5 +112,70 @@ function updateLogin($post) //modification d'un login
     $requete = "UPDATE login SET loginName='".$fLogin."',password='".$fPassword."', loginType='".$fTypeLogin."',loginState=".$fStateLogin." WHERE idLogin='".$fID."';";
 
     $connexion->exec($requete);
+}
+function safestrip($string){
+    $string = strip_tags($string);
+    $string = mysql_real_escape_string($string);
+    return $string;
+}
+//function to show any messages
+function messages() {
+    $message = '';
+    if($_SESSION['success'] != '') {
+        $message = '<span class="success" id="message">'.$_SESSION['success'].'</span>';
+        $_SESSION['success'] = '';
+    }
+    if($_SESSION['error'] != '') {
+        $message = '<span class="error" id="message">'.$_SESSION['error'].'</span>';
+        $_SESSION['error'] = '';
+    }
+    return $message;
+}
+function Login()
+{
+    if(empty($_POST['username']))
+    {
+        $this->HandleError("Nom d'utilisateur vide");
+        return false;
+    }
 
+    if(empty($_POST['password']))
+    {
+        $this->HandleError("Mot de passe vide");
+        return false;
+    }
+
+    $username = trim($_POST['username']);
+    $password = trim($_POST['password']);
+
+    if(!$this->CheckLoginInDB($username,$password))
+    {
+        return false;
+    }
+
+    session_start();
+
+    $_SESSION[$this->GetLoginSessionVar()] = $username;
+    return true;
+}
+function CheckLoginInDB($username,$password)
+{
+    if(!$this->DBLogin())
+    {
+        $this->HandleError("Erreur de connexion à la base de données");
+        return false;
+    }
+    $username = $this->SanitizeForSQL($username);
+    $qry = "Select loginName from login ".
+        " where username='$username' and password='$password' ";
+
+    $result = mysql_query($qry,$this->connection);
+
+    if(!$result || mysqli_num_rows($result) <= 0)
+    {
+        $this->HandleError("Error logging in. ".
+            "Le mot de passe entré ne correspond pas");
+        return false;
+    }
+    return true;
 }

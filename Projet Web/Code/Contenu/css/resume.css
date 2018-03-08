@@ -74,7 +74,7 @@ h2 {
     flex-direction: column;
     width: 17rem;
     height: 100vh;
-    margin: 100px;
+    margin: 0px;
   }
   #sideNav .navbar-brand {
     display: flex;
@@ -188,4 +188,15 @@ a:hover, a:focus, a:active {
 }
 .inner{
     margin-top: 60px;
+}
+#apropos{
+    display: flex;
+    top: 9%;
+    left: 15%;
+    position: absolute;
+}
+.modifydroite{
+    top: 9%;
+    left: 54%;
+    position: absolute;
 }

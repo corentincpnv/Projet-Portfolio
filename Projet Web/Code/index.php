@@ -17,41 +17,39 @@ try
 
         switch ($action)
         {
-            case 'vue_accueil' :
-                accueil();
+            case 'welcome' :
+                accueil(); //appel de la fonction dans le controleur
                 break;
-            case 'vue_snow' :
-                snows();
+            case 'login' :
+                login(); //appel de la fonction dans le controleur
                 break;
-            case 'vue_login' :
-                login();
+            case 'rechercher_recettes' :
+                rechercheRecettes(); //appel de la fonction dans le controleur
                 break;
-            case 'vue_del_snow' :
-                deleteSnow();
+            case 'rechercher_photo' :
+                recherchePhotos();
                 break;
-            case 'vue_add_snow' :
-                addSnow();
+            case 'ouvrir_fichier' :
+                $nomfichier = $_GET['fichier'];
+                ouvrirFichier($nomfichier); //appel de la fonction dans le controleur
                 break;
-            case 'vue_upd_snow' :
-                updateSnow();
+            case 'afficher_film' :
+                rechercheFilms(); //appel de la fonction dans le controleur
                 break;
-            case 'vue_panier_demande' :
-                panierDemande();
+            case 'afficher_contenu_pedagogique' :
+                rechercheContenuPedagogique(); //appel de la fonction dans le controleur
                 break;
-            case 'vue_panier_gestion' :
-                panierGestion();
+            case 'importer_donnees' :
+                importDonnees();
                 break;
-            case 'vue_panier_gestion_del' :
-                panierGestionDel();
+            case 'rechercher_doc_enseignant' :
+                rechercheDocEnseignant(); //appel de la fonction dans le controleur
                 break;
-            case 'vue_panier_gestion_upd' :
-                panierGestionUpd();
+            case 'logout' :
+                logout();
                 break;
-            case 'vue_snow_louer' :
-                snowLouer();
-                break;
-            case 'vue_location_gestion' :
-                LocationGestion();
+            case 'changer_pwd' :
+                changePwd();
                 break;
             default :
                 throw new Exception("action non valide");

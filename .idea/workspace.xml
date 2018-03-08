@@ -21,83 +21,35 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="modele.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="modele.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Projet Web/Code/Modele/modele.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+            <state relative-caret-position="495">
+              <caret line="167" column="18" lean-forward="true" selection-start-line="167" selection-start-column="18" selection-end-line="167" selection-end-column="18" />
               <folding>
-                <marker date="1520334401565" expanded="true" signature="569:605" ph="SELECT * FRO... login" />
-                <marker date="1520334401565" expanded="true" signature="917:1008" ph="SELECT * FRO... tblclients" />
-                <marker date="1520334401565" expanded="true" signature="1053:1145" ph="SELECT * FRO... tblvendeurs" />
-                <marker date="1520334401565" expanded="true" signature="1445:1513" ph="SELECT idLog... login" />
-                <marker date="1520334401565" expanded="true" signature="1937:1993" ph="SELECT idLog... login" />
-                <marker date="1520334401565" expanded="true" signature="2279:2376" ph="INSERT INTO login... " />
-                <marker date="1520334401565" expanded="true" signature="2766:2809" ph="SELECT * FRO... login" />
-                <marker date="1520334401565" expanded="true" signature="2979:3020" ph="DELETE FROM " />
-                <marker date="1520334401565" expanded="true" signature="3254:3402" ph="UPDATE login... " />
+                <element signature="e#6#98#0#PHP" expanded="true" />
+                <marker date="1520507355721" expanded="true" signature="569:605" ph="SELECT * FRO... login" />
+                <marker date="1520507355721" expanded="true" signature="917:1008" ph="SELECT * FRO... tblclients" />
+                <marker date="1520507355721" expanded="true" signature="1053:1145" ph="SELECT * FRO... tblvendeurs" />
+                <marker date="1520507355721" expanded="true" signature="1445:1513" ph="SELECT idLog... login" />
+                <marker date="1520507355721" expanded="true" signature="1937:1993" ph="SELECT idLog... login" />
+                <marker date="1520507355721" expanded="true" signature="2279:2376" ph="INSERT INTO login... " />
+                <marker date="1520507355721" expanded="true" signature="2766:2809" ph="SELECT * FRO... login" />
+                <marker date="1520507355721" expanded="true" signature="2979:3020" ph="DELETE FROM " />
+                <marker date="1520507355721" expanded="true" signature="3254:3402" ph="UPDATE login... " />
+                <marker date="1520507355721" expanded="true" signature="4768:4796" ph="Select name,... ${$this-&gt;tablename}" />
+                <marker date="1520507355721" expanded="true" signature="4768:4860" ph="Select login... login" />
+                <marker date="1520507355721" expanded="true" signature="4768:4863" ph="Select name ${$this-&gt;tablename}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gabarit.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Projet Web/Code/Vue/gabarit.php">
+      <file leaf-file-name="vue_login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Projet Web/Code/Vue/vue_login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="resume.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Projet Web/Code/Contenu/css/resume.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="158" column="21" lean-forward="true" selection-start-line="158" selection-start-column="21" selection-end-line="158" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vue_portfolio.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Projet Web/Code/Vue/vue_portfolio.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vue_portfolioModify.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Projet Web/Code/Vue/vue_portfolioModify.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="controleur.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Projet Web/Code/Controleur/controleur.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-              <folding>
-                <marker date="1520330628522" expanded="true" signature="3019:3197" ph="INSERT INTO formulaire... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vue_erreur.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Projet Web/Code/Vue/vue_erreur.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+            <state relative-caret-position="612">
+              <caret line="36" column="46" lean-forward="false" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -106,21 +58,19 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Projet Web/Code/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="53" column="34" lean-forward="true" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+            <state relative-caret-position="443">
+              <caret line="39" column="48" lean-forward="true" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vue_accueil.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Projet Web/Code/Vue/vue_accueil.php">
+      <file leaf-file-name="controleur.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Projet Web/Code/Controleur/controleur.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <marker date="1520334679722" expanded="true" signature="1589:1609" ph="..." />
-              </folding>
+            <state relative-caret-position="440">
+              <caret line="35" column="29" lean-forward="false" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="48" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -130,6 +80,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>side</find>
+      <find>getListeTypesRecette</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -138,19 +89,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Projet Web/Code/Vue/vue_login.php" />
         <option value="$PROJECT_DIR$/Projet Web/Code/Vue/vue_inscription.php" />
         <option value="$PROJECT_DIR$/Projet Web/Code/Vue/vue_portfolioDisable.php" />
         <option value="$PROJECT_DIR$/Projet Web/Code/Vue/vue_portfolio.php" />
-        <option value="$PROJECT_DIR$/Projet Web/Code/Vue/vue_portfolioModify.php" />
-        <option value="$PROJECT_DIR$/Projet Web/Code/index.php" />
-        <option value="$PROJECT_DIR$/Projet Web/Code/Controleur/controleur.php" />
         <option value="$PROJECT_DIR$/Projet Web/Code/Vue/vue_erreur.php" />
-        <option value="$PROJECT_DIR$/Projet Web/Code/Vue/gabarit.php" />
-        <option value="$PROJECT_DIR$/Projet Web/Code/Contenu/css/resume.css" />
-        <option value="$PROJECT_DIR$/Projet Web/Code/Modele/modele.php" />
         <option value="$PROJECT_DIR$/Projet Web/Code/Vue/vue_administrator.php" />
         <option value="$PROJECT_DIR$/Projet Web/Code/Vue/vue_accueil.php" />
+        <option value="$PROJECT_DIR$/Projet Web/Code/Contenu/css/resume.css" />
+        <option value="$PROJECT_DIR$/Projet Web/Code/Vue/vue_portfolioModify.php" />
+        <option value="$PROJECT_DIR$/Projet Web/Code/Vue/vue_exemple.php" />
+        <option value="$PROJECT_DIR$/Projet Web/Code/Vue/gabarit.php" />
+        <option value="$PROJECT_DIR$/Projet Web/Code/index.php" />
+        <option value="$PROJECT_DIR$/Projet Web/Code/Controleur/controleur.php" />
+        <option value="$PROJECT_DIR$/Projet Web/Code/Vue/vue_login.php" />
+        <option value="$PROJECT_DIR$/Projet Web/Code/Modele/modele.php" />
       </list>
     </option>
   </component>
@@ -186,6 +138,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -252,9 +205,52 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projet-Portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projet-Portfolio" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projet Web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Code" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modele" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projet-Portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projet-Portfolio" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projet Web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Code" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controleur" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -358,26 +354,27 @@
       <workItem from="1519983821383" duration="7849000" />
       <workItem from="1520236195209" duration="6778000" />
       <workItem from="1520329614501" duration="5081000" />
+      <workItem from="1520493420765" duration="14144000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28619000" />
+    <option name="totallyTimeSpent" value="42763000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="960" height="1040" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27222222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27222222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.046666667" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -394,17 +391,17 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27222222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.046666667" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.046666667" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,18 +417,110 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Projet Web/Code/Modele/modele.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding>
+            <element signature="e#6#98#0#PHP" expanded="true" />
+            <marker date="1520507355721" expanded="true" signature="569:605" ph="SELECT * FRO... login" />
+            <marker date="1520507355721" expanded="true" signature="917:1008" ph="SELECT * FRO... tblclients" />
+            <marker date="1520507355721" expanded="true" signature="1053:1145" ph="SELECT * FRO... tblvendeurs" />
+            <marker date="1520507355721" expanded="true" signature="1445:1513" ph="SELECT idLog... login" />
+            <marker date="1520507355721" expanded="true" signature="1937:1993" ph="SELECT idLog... login" />
+            <marker date="1520507355721" expanded="true" signature="2279:2376" ph="INSERT INTO login... " />
+            <marker date="1520507355721" expanded="true" signature="2766:2809" ph="SELECT * FRO... login" />
+            <marker date="1520507355721" expanded="true" signature="2979:3020" ph="DELETE FROM " />
+            <marker date="1520507355721" expanded="true" signature="3254:3402" ph="UPDATE login... " />
+            <marker date="1520507355721" expanded="true" signature="4768:4796" ph="Select name,... ${$this-&gt;tablename}" />
+            <marker date="1520507355721" expanded="true" signature="4768:4860" ph="Select login... login" />
+            <marker date="1520507355721" expanded="true" signature="4768:4863" ph="Select name ${$this-&gt;tablename}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet Web/Code/Vue/gabarit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet Web/Code/Contenu/css/resume.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2686">
+          <caret line="158" column="21" lean-forward="true" selection-start-line="158" selection-start-column="21" selection-end-line="158" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet Web/Code/Vue/vue_portfolio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet Web/Code/Vue/vue_portfolioModify.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet Web/Code/Controleur/controleur.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet Web/Code/Vue/vue_erreur.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet Web/Code/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="53" column="34" lean-forward="true" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet Web/Code/Vue/vue_accueil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <marker date="1520334679722" expanded="true" signature="1589:1609" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet Web/Code/Modele/modele.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1520334401565" expanded="true" signature="569:605" ph="SELECT * FRO... login" />
-            <marker date="1520334401565" expanded="true" signature="917:1008" ph="SELECT * FRO... tblclients" />
-            <marker date="1520334401565" expanded="true" signature="1053:1145" ph="SELECT * FRO... tblvendeurs" />
-            <marker date="1520334401565" expanded="true" signature="1445:1513" ph="SELECT idLog... login" />
-            <marker date="1520334401565" expanded="true" signature="1937:1993" ph="SELECT idLog... login" />
-            <marker date="1520334401565" expanded="true" signature="2279:2376" ph="INSERT INTO login... " />
-            <marker date="1520334401565" expanded="true" signature="2766:2809" ph="SELECT * FRO... login" />
-            <marker date="1520334401565" expanded="true" signature="2979:3020" ph="DELETE FROM " />
-            <marker date="1520334401565" expanded="true" signature="3254:3402" ph="UPDATE login... " />
+            <element signature="e#6#98#0#PHP" expanded="true" />
+            <marker date="1520507355721" expanded="true" signature="569:605" ph="SELECT * FRO... login" />
+            <marker date="1520507355721" expanded="true" signature="917:1008" ph="SELECT * FRO... tblclients" />
+            <marker date="1520507355721" expanded="true" signature="1053:1145" ph="SELECT * FRO... tblvendeurs" />
+            <marker date="1520507355721" expanded="true" signature="1445:1513" ph="SELECT idLog... login" />
+            <marker date="1520507355721" expanded="true" signature="1937:1993" ph="SELECT idLog... login" />
+            <marker date="1520507355721" expanded="true" signature="2279:2376" ph="INSERT INTO login... " />
+            <marker date="1520507355721" expanded="true" signature="2766:2809" ph="SELECT * FRO... login" />
+            <marker date="1520507355721" expanded="true" signature="2979:3020" ph="DELETE FROM " />
+            <marker date="1520507355721" expanded="true" signature="3254:3402" ph="UPDATE login... " />
+            <marker date="1520507355721" expanded="true" signature="4768:4796" ph="Select name,... ${$this-&gt;tablename}" />
+            <marker date="1520507355721" expanded="true" signature="4768:4860" ph="Select login... login" />
+            <marker date="1520507355721" expanded="true" signature="4768:4863" ph="Select name ${$this-&gt;tablename}" />
           </folding>
         </state>
       </provider>
@@ -464,9 +553,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1598">
           <caret line="94" column="0" lean-forward="true" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-          <folding>
-            <marker date="1520330628522" expanded="true" signature="3019:3197" ph="INSERT INTO formulaire... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -517,15 +604,19 @@
         <state relative-caret-position="408">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <marker date="1520334401565" expanded="true" signature="569:605" ph="SELECT * FRO... login" />
-            <marker date="1520334401565" expanded="true" signature="917:1008" ph="SELECT * FRO... tblclients" />
-            <marker date="1520334401565" expanded="true" signature="1053:1145" ph="SELECT * FRO... tblvendeurs" />
-            <marker date="1520334401565" expanded="true" signature="1445:1513" ph="SELECT idLog... login" />
-            <marker date="1520334401565" expanded="true" signature="1937:1993" ph="SELECT idLog... login" />
-            <marker date="1520334401565" expanded="true" signature="2279:2376" ph="INSERT INTO login... " />
-            <marker date="1520334401565" expanded="true" signature="2766:2809" ph="SELECT * FRO... login" />
-            <marker date="1520334401565" expanded="true" signature="2979:3020" ph="DELETE FROM " />
-            <marker date="1520334401565" expanded="true" signature="3254:3402" ph="UPDATE login... " />
+            <element signature="e#6#98#0#PHP" expanded="true" />
+            <marker date="1520507355721" expanded="true" signature="569:605" ph="SELECT * FRO... login" />
+            <marker date="1520507355721" expanded="true" signature="917:1008" ph="SELECT * FRO... tblclients" />
+            <marker date="1520507355721" expanded="true" signature="1053:1145" ph="SELECT * FRO... tblvendeurs" />
+            <marker date="1520507355721" expanded="true" signature="1445:1513" ph="SELECT idLog... login" />
+            <marker date="1520507355721" expanded="true" signature="1937:1993" ph="SELECT idLog... login" />
+            <marker date="1520507355721" expanded="true" signature="2279:2376" ph="INSERT INTO login... " />
+            <marker date="1520507355721" expanded="true" signature="2766:2809" ph="SELECT * FRO... login" />
+            <marker date="1520507355721" expanded="true" signature="2979:3020" ph="DELETE FROM " />
+            <marker date="1520507355721" expanded="true" signature="3254:3402" ph="UPDATE login... " />
+            <marker date="1520507355721" expanded="true" signature="4768:4796" ph="Select name,... ${$this-&gt;tablename}" />
+            <marker date="1520507355721" expanded="true" signature="4768:4860" ph="Select login... login" />
+            <marker date="1520507355721" expanded="true" signature="4768:4863" ph="Select name ${$this-&gt;tablename}" />
           </folding>
         </state>
       </provider>
@@ -561,15 +652,19 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1520334401565" expanded="true" signature="569:605" ph="SELECT * FRO... login" />
-            <marker date="1520334401565" expanded="true" signature="917:1008" ph="SELECT * FRO... tblclients" />
-            <marker date="1520334401565" expanded="true" signature="1053:1145" ph="SELECT * FRO... tblvendeurs" />
-            <marker date="1520334401565" expanded="true" signature="1445:1513" ph="SELECT idLog... login" />
-            <marker date="1520334401565" expanded="true" signature="1937:1993" ph="SELECT idLog... login" />
-            <marker date="1520334401565" expanded="true" signature="2279:2376" ph="INSERT INTO login... " />
-            <marker date="1520334401565" expanded="true" signature="2766:2809" ph="SELECT * FRO... login" />
-            <marker date="1520334401565" expanded="true" signature="2979:3020" ph="DELETE FROM " />
-            <marker date="1520334401565" expanded="true" signature="3254:3402" ph="UPDATE login... " />
+            <element signature="e#6#98#0#PHP" expanded="true" />
+            <marker date="1520507355721" expanded="true" signature="569:605" ph="SELECT * FRO... login" />
+            <marker date="1520507355721" expanded="true" signature="917:1008" ph="SELECT * FRO... tblclients" />
+            <marker date="1520507355721" expanded="true" signature="1053:1145" ph="SELECT * FRO... tblvendeurs" />
+            <marker date="1520507355721" expanded="true" signature="1445:1513" ph="SELECT idLog... login" />
+            <marker date="1520507355721" expanded="true" signature="1937:1993" ph="SELECT idLog... login" />
+            <marker date="1520507355721" expanded="true" signature="2279:2376" ph="INSERT INTO login... " />
+            <marker date="1520507355721" expanded="true" signature="2766:2809" ph="SELECT * FRO... login" />
+            <marker date="1520507355721" expanded="true" signature="2979:3020" ph="DELETE FROM " />
+            <marker date="1520507355721" expanded="true" signature="3254:3402" ph="UPDATE login... " />
+            <marker date="1520507355721" expanded="true" signature="4768:4796" ph="Select name,... ${$this-&gt;tablename}" />
+            <marker date="1520507355721" expanded="true" signature="4768:4860" ph="Select login... login" />
+            <marker date="1520507355721" expanded="true" signature="4768:4863" ph="Select name ${$this-&gt;tablename}" />
           </folding>
         </state>
       </provider>
@@ -600,10 +695,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projet Web/Code/Vue/vue_login.php">
+    <entry file="file://$PROJECT_DIR$/Projet Web/Code/Contenu/css/resume.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../projet EPM/Vue/vue_erreur.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet Web/Code/Contenu/css/resume.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="166" column="18" lean-forward="true" selection-start-line="166" selection-start-column="18" selection-end-line="166" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet Web/Code/Vue/vue_portfolioDisable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -616,32 +733,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projet Web/Code/Contenu/css/resume.min.css">
+    <entry file="file://$PROJECT_DIR$/Projet Web/Code/Vue/vue_exemple.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Projet Web/Code/Vue/vue_portfolioDisable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        <state relative-caret-position="221">
+          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../projet EPM/Vue/vue_erreur.php">
+    <entry file="file://$PROJECT_DIR$/Projet Web/Code/Vue/vue_erreur.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projet Web/Code/Vue/vue_portfolioModify.php">
+    <entry file="file://$PROJECT_DIR$/Projet Web/Code/Vue/vue_portfolio.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+        <state relative-caret-position="85">
+          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -654,62 +765,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projet Web/Code/Controleur/controleur.php">
+    <entry file="file://$PROJECT_DIR$/../projet EPM/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet Web/Code/Vue/vue_accueil.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <marker date="1520330628522" expanded="true" signature="3019:3197" ph="INSERT INTO formulaire... " />
+            <marker date="1520334679722" expanded="true" signature="1589:1609" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projet Web/Code/Vue/vue_erreur.php">
+    <entry file="file://$PROJECT_DIR$/Projet Web/Code/Vue/vue_portfolioModify.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Projet Web/Code/Modele/modele.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-          <folding>
-            <marker date="1520334401565" expanded="true" signature="569:605" ph="SELECT * FRO... login" />
-            <marker date="1520334401565" expanded="true" signature="917:1008" ph="SELECT * FRO... tblclients" />
-            <marker date="1520334401565" expanded="true" signature="1053:1145" ph="SELECT * FRO... tblvendeurs" />
-            <marker date="1520334401565" expanded="true" signature="1445:1513" ph="SELECT idLog... login" />
-            <marker date="1520334401565" expanded="true" signature="1937:1993" ph="SELECT idLog... login" />
-            <marker date="1520334401565" expanded="true" signature="2279:2376" ph="INSERT INTO login... " />
-            <marker date="1520334401565" expanded="true" signature="2766:2809" ph="SELECT * FRO... login" />
-            <marker date="1520334401565" expanded="true" signature="2979:3020" ph="DELETE FROM " />
-            <marker date="1520334401565" expanded="true" signature="3254:3402" ph="UPDATE login... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Projet Web/Code/Vue/gabarit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Projet Web/Code/Contenu/css/resume.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="158" column="21" lean-forward="true" selection-start-line="158" selection-start-column="21" selection-end-line="158" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Projet Web/Code/Vue/vue_portfolio.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        <state relative-caret-position="610">
+          <caret line="52" column="32" lean-forward="false" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -717,25 +794,69 @@
     <entry file="file://$PROJECT_DIR$/Projet Web/Code/Vue/vue_administrator.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../projet EPM/Controleur/controleur.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="670">
+          <caret line="247" column="41" lean-forward="true" selection-start-line="247" selection-start-column="41" selection-end-line="247" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet Web/Code/Vue/gabarit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Projet Web/Code/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="34" lean-forward="true" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+        <state relative-caret-position="443">
+          <caret line="39" column="48" lean-forward="true" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projet Web/Code/Vue/vue_accueil.php">
+    <entry file="file://$PROJECT_DIR$/Projet Web/Code/Controleur/controleur.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="440">
+          <caret line="35" column="29" lean-forward="false" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet Web/Code/Vue/vue_login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="46" lean-forward="false" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projet Web/Code/Modele/modele.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="167" column="18" lean-forward="true" selection-start-line="167" selection-start-column="18" selection-end-line="167" selection-end-column="18" />
           <folding>
-            <marker date="1520334679722" expanded="true" signature="1589:1609" ph="..." />
+            <element signature="e#6#98#0#PHP" expanded="true" />
+            <marker date="1520507355721" expanded="true" signature="569:605" ph="SELECT * FRO... login" />
+            <marker date="1520507355721" expanded="true" signature="917:1008" ph="SELECT * FRO... tblclients" />
+            <marker date="1520507355721" expanded="true" signature="1053:1145" ph="SELECT * FRO... tblvendeurs" />
+            <marker date="1520507355721" expanded="true" signature="1445:1513" ph="SELECT idLog... login" />
+            <marker date="1520507355721" expanded="true" signature="1937:1993" ph="SELECT idLog... login" />
+            <marker date="1520507355721" expanded="true" signature="2279:2376" ph="INSERT INTO login... " />
+            <marker date="1520507355721" expanded="true" signature="2766:2809" ph="SELECT * FRO... login" />
+            <marker date="1520507355721" expanded="true" signature="2979:3020" ph="DELETE FROM " />
+            <marker date="1520507355721" expanded="true" signature="3254:3402" ph="UPDATE login... " />
+            <marker date="1520507355721" expanded="true" signature="4768:4796" ph="Select name,... ${$this-&gt;tablename}" />
+            <marker date="1520507355721" expanded="true" signature="4768:4860" ph="Select login... login" />
+            <marker date="1520507355721" expanded="true" signature="4768:4863" ph="Select name ${$this-&gt;tablename}" />
           </folding>
         </state>
       </provider>
