@@ -5,7 +5,7 @@
  * Date: 06.03.2018
  * Time: 11:04
  */
-  $titre ='Erreur - Projet Portfolio';
+$titre ='Erreur - Projet Portfolio';
 
 // Tampon de flux stocké en mémoire
 ob_start();
