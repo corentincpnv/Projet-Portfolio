@@ -12,6 +12,7 @@ function accueil()
 {
     require "vue/vue_accueil.php";
 }
+
 function erreur($e)
 {
     $_SESSION['erreur']=$e;

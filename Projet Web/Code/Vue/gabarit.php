@@ -39,7 +39,7 @@ Src : https://github.com/BlackrockDigital/startbootstrap-resume
         </button>
         <div class="nav-collapse collapse">
             <ul class="nav nav-pills">
-                <li class="bouton-autres-pages"<?php if (!isset($_GET['action'])) echo 'class="active"'; ?>><a href="index.php">Accueil</a></li>
+                <li class="bouton-autres-pages"<?php if (!isset($_GET['action'])) echo 'class="active"'; ?>><a href="index.php?action=vue_accueil.php">Accueil</a></li>
                 <li class="bouton-autres-pages"<?php if (@$_GET['action']=="vue_portfolio") echo 'class="active"'; ?>><a href="index.php?action=vue_portfolio.php">Exemples</a></li>
                 <li class="bouton-autres-pages"<?php if (@$_GET['action']=="vue_login") echo 'class="active"'; ?>><a href="index.php?action=vue_login.php">
                         <?php if(!isset($_SESSION['login'])) :?>

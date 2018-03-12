@@ -31,7 +31,7 @@ function getLoginInfo($login)
     $ligne = $resultats->fetch();
     return $ligne;
 }
-/**function getlogin()
+function getlogin()
 {
     // Connexion à la BD et au serveur
     $connexion = getBD();
@@ -41,7 +41,7 @@ function getLoginInfo($login)
     // Exécution de la requête
     $resultats = $connexion->query($requete);
     return $resultats;
-} **/
+}
 /**function getLogin($post)
 {
     // connexion à la BD snows
@@ -60,8 +60,8 @@ function getLoginInfo($login)
     // Exécution de la requête et renvoi des résultats
     $resultats = $connexion->query($requete);
     return $resultats;
-}
-*/
+}**/
+
 //Fonction : vérifie le login de l'utilisateur
 //Sortie : résultat de la requête
 function getPwdFromLogin($login)

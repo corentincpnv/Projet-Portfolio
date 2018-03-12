@@ -2,18 +2,17 @@
 $titre ='Modifier Portfolio';
 ob_start();
 ?>
-    <header>
+<header>
 
-        <h2>Connexion</h2>
-        <p>Veuillez vous connecter pour avoir accès au site.</p>
-    </header>
+    <h2>Connexion</h2>
+    <p>Veuillez vous connecter pour avoir accès au site.</p>
+</header>
 
 <?php
 
 if (isset($msg_err) && !empty($msg_err)) {
     echo $msg_err;
 }
-
 ?>
 
     <form method="post" action="index.php?action=login">
@@ -21,7 +20,7 @@ if (isset($msg_err) && !empty($msg_err)) {
             <label>Login : </label>
         </div>
         <div>
-            <input type="text" size="40" name="login" required/>
+            <input type="login" size="40" name="login" required/>
         </div>
         <br/>
         <div>
