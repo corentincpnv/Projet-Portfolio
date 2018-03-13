@@ -21,7 +21,6 @@ ob_start();
 <hr/>
 
 <?php
-    $contenu = ob_get_clean();
-    require 'gabarit.php';
-
-
+$contenu = ob_get_clean();
+require 'gabarit.php';
+?>

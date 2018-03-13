@@ -16,7 +16,7 @@ function accueil()
 function erreur($e)
 {
     $_SESSION['erreur']=$e;
-    require "Vue/vue_erreur.php";
+    require "vue/vue_erreur.php";
 }
 function login()
 {
