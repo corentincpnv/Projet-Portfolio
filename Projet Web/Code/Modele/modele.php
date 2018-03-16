@@ -12,15 +12,6 @@ function getBD() {
     $connexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     return $connexion;
 }
-//Fonction : vérifie le login de l'utilisateur
-//Sortie : résultat de la requête
-function getAproposInfo()
-{
-    $connexion = getBD();
-    $requete = "SELECT * FROM about, listofinterests, listofqualities";
-    $resultats = $connexion->query($requete);
-    return $resultats;
-}
 //Récupère les informations du login
 function getLoginType($login)
 {
@@ -60,7 +51,7 @@ function aproposUtilisateur(){
     $connexion = getBD();
 
     $login=$_SESSION['login'];
-    $requete="SELECT * FROM `about` INNER JOIN LOGIN ON portfolio.idPortfolio = login.fkPortfolio where LOGIN='$login'";
+    $requete="select * from about inner join portfolio on about.fkPortfolio = idPortfolio inner join login on idPortfolio = login.fkPortfolio where loginName = '$login'";
     $resultats = $connexion->query($requete);
     while ($ligne= $resultats ->fetch()){
         $Retour["firstName"] = $ligne['firstName'];

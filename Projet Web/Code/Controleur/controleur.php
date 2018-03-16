@@ -50,8 +50,8 @@ function login()
                     require "vue/vue_administrator.php";
                     exit();
                 }
-                if ($type == 0){
-                    $resultats = getAproposInfo();
+                if ($type[0] == 0){
+
 
                     require "vue/vue_portfolio.php";
                 }

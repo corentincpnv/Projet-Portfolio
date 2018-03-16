@@ -23,27 +23,8 @@ try
             case 'login' :
                 login(); //appel de la fonction dans le controleur
                 break;
-            case 'rechercher_recettes' :
-                rechercheRecettes(); //appel de la fonction dans le controleur
-                break;
-            case 'rechercher_photo' :
-                recherchePhotos();
-                break;
-            case 'ouvrir_fichier' :
-                $nomfichier = $_GET['fichier'];
-                ouvrirFichier($nomfichier); //appel de la fonction dans le controleur
-                break;
-            case 'afficher_film' :
-                rechercheFilms(); //appel de la fonction dans le controleur
-                break;
-            case 'afficher_contenu_pedagogique' :
-                rechercheContenuPedagogique(); //appel de la fonction dans le controleur
-                break;
-            case 'importer_donnees' :
-                importDonnees();
-                break;
-            case 'rechercher_doc_enseignant' :
-                rechercheDocEnseignant(); //appel de la fonction dans le controleur
+            case 'exemple' :
+                exemple(); //appel de la fonction dans le controleur
                 break;
             case 'logout' :
                 logout();
