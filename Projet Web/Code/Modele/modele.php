@@ -11,11 +11,10 @@ function getBD() {
     // permet d'avoir plus de détails sur les erreurs retournées
     $connexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     return $connexion;
-
 }
 //Fonction : vérifie le login de l'utilisateur
 //Sortie : résultat de la requête
-function getListePortfolio()
+function getAproposInfo()
 {
     $connexion = getBD();
     $requete = "SELECT * FROM about, listofinterests, listofqualities";
@@ -23,13 +22,13 @@ function getListePortfolio()
     return $resultats;
 }
 //Récupère les informations du login
-function getLoginInfo($login)
+function getLoginType($login)
 {
     $connexion = getBD();
-    $requete = "SELECT idLogin, loginName, loginType FROM login WHERE login='" . $login . "'";
+    $requete = "SELECT loginType FROM login WHERE loginName='" . $login . "'";
     $resultats = $connexion->query($requete);
-    $ligne = $resultats->fetch();
-    return $ligne;
+    $type = $resultats->fetch();
+    return $type;
 }
 function getlogin()
 {
@@ -37,7 +36,7 @@ function getlogin()
     $connexion = getBD();
 
     // Création de la string pour la requête
-    $requete = "SELECT * FROM login ORDER BY idLogin;";
+    $requete = "SELECT loginName FROM login ORDER BY idLogin;";
     // Exécution de la requête
     $resultats = $connexion->query($requete);
     return $resultats;
@@ -51,8 +50,26 @@ function getPwdFromLogin($login)
     $requete = "SELECT idLogin, password FROM login WHERE loginName='" . $login . "'";
     $resultats = $connexion->query($requete);
     if ($donnees = $resultats->fetch()) {
-        return $donnees['pwd'];
+        return $donnees['password'];
     } else {
         return '';
     }
+}
+function aproposUtilisateur(){
+
+    $connexion = getBD();
+
+    $login=$_SESSION['login'];
+    $requete="SELECT * FROM `about` INNER JOIN LOGIN ON portfolio.idPortfolio = login.fkPortfolio where LOGIN='$login'";
+    $resultats = $connexion->query($requete);
+    while ($ligne= $resultats ->fetch()){
+        $Retour["firstName"] = $ligne['firstName'];
+        $Retour["lastName"] = $ligne['lastName'];
+        $Retour["postalCode"] = $ligne['postalCode'];
+        $Retour["address"] = $ligne['address'];
+        $Retour["addressNumber"] = $ligne['addressNumber'];
+        $Retour["phoneNumber"] = $ligne['phoneNumber'];
+        $Retour["mailAddress"] = $ligne['mailAddress'];
+    }
+    return $Retour;
 }

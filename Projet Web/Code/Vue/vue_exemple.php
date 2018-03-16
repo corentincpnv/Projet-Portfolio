@@ -6,9 +6,10 @@
  * Time: 09:09
  * vue dans laquelle on verra des exemples de portfolio
  */
-$titre ='Portfolio';
+$titre ='Accueil Portfolio';
 ob_start();
 ?>
+
 
 <?php
 $contenu = ob_get_clean();
