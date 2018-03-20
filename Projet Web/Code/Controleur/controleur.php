@@ -44,7 +44,7 @@ function login()
                 if ($type == 1){
                     $resultats = getlogin();
                     // enregistrement du type en session
-                    $_SESSION['type'] = $type;
+                    $_SESSION['login'] = $login;
                     require "vue/vue_administrator.php";
                     exit();
                 }

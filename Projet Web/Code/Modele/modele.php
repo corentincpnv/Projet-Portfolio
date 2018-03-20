@@ -64,8 +64,31 @@ function aproposUtilisateur(){
     }
     return $Retour;
 }
-/*function competencesUtilisateur(){
+function competencesUtilisateur(){
     $connexion = getBD();
     $login=$_SESSION['login'];
-    $requete="select"
-}*/
+    $requete="select * from portfolio inner join login on login.fkPortfolio = idPortfolio inner join listofqualities on idPortfolio = listofqualities.fkPortfolio inner join listOfInterests on idPortfolio = listofinterests.fkPortfolio where loginName = '$login'";
+    $resultats = $connexion->query($requete);
+    while ($ligne= $resultats ->fetch()){
+        $Retour["ambitious"] = $ligne['ambitious'];
+        $Retour["calm"] = $ligne['calm'];
+        $Retour["confident"] = $ligne['confident'];
+        $Retour["disciplined"] = $ligne['disciplined'];
+        $Retour["discreet"] = $ligne['discreet'];
+        $Retour["dynamic"] = $ligne['dynamic'];
+        $Retour["methodical"] = $ligne['methodical'];
+        $Retour["optimist"] = $ligne['optimist'];
+        $Retour["fast"] = $ligne['fast'];
+        $Retour["sensible"] = $ligne['sensible'];
+        $Retour["tidy"] = $ligne['tidy'];
+        $Retour["voluntary"] = $ligne['voluntary'];
+
+        $Retour["art"] = $ligne['art'];
+        $Retour["litterature"] = $ligne['litterature'];
+        $Retour["cinema"] = $ligne['cinema'];
+        $Retour["sport"] = $ligne['sport'];
+        $Retour["travel"] = $ligne['travel'];
+        $Retour["music"] = $ligne['music'];
+    }
+    return $Retour;
+}
