@@ -64,3 +64,8 @@ function aproposUtilisateur(){
     }
     return $Retour;
 }
+/*function competencesUtilisateur(){
+    $connexion = getBD();
+    $login=$_SESSION['login'];
+    $requete="select"
+}*/

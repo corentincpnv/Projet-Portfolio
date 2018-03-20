@@ -43,8 +43,6 @@ function login()
                 $type = getLoginType($login);
                 if ($type == 1){
                     $resultats = getlogin();
-                    // ouverture de la session
-                    session_start();
                     // enregistrement du type en session
                     $_SESSION['type'] = $type;
                     require "vue/vue_administrator.php";
@@ -52,7 +50,7 @@ function login()
                 }
                 if ($type[0] == 0){
 
-
+                    $_SESSION['login'] = $login;
                     require "vue/vue_portfolio.php";
                 }
                 else {
