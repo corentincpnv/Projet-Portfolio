@@ -10,7 +10,7 @@ if(empty($_SESSION['login']))
 }
 ?>
 <div class="tableauAdmin">
-    <
+    <td><?php echo $this->$colonne;?></td>
 </div>
 <?php
 $contenu = ob_get_clean();

@@ -54,6 +54,7 @@ function aproposUtilisateur(){
     $requete="select * from about inner join portfolio on about.fkPortfolio = idPortfolio inner join login on idPortfolio = login.fkPortfolio where loginName = '$login'";
     $resultats = $connexion->query($requete);
     while ($ligne= $resultats ->fetch()){
+        $Retour["fkPortfolio"] = $ligne['fkPortfolio'];
         $Retour["firstName"] = $ligne['firstName'];
         $Retour["lastName"] = $ligne['lastName'];
         $Retour["postalCode"] = $ligne['postalCode'];
@@ -91,4 +92,11 @@ function competencesUtilisateur(){
         $Retour["music"] = $ligne['music'];
     }
     return $Retour;
+}
+function update($Post){
+    $connexion = getBD();
+    extract($_POST);
+    $connexion->exec("update about set firstName = '$prenom', lastName = '$nom', postalCode = '$codepostal', address = '$address', addressNumber = '$numero', phoneNumber = '$numerodetelephone', mailAddress = '$email' where fkPortfolio = '$Post['fkPortfolio']'");
+    $connexion->exec("update listofinterests set art = '$art', litterature = '$litterature', cinema = '$cinema', sport = '$sport', travel = '$voyage', music = '$musique'where fkPortfolio = '$fkPortfolio'");
+    $connexion->exec("update listofqualities set ambitious = '$ambitieux', calm = '$calme', confident = '$confiant', disciplined = '$discipline', discreet = '$discret', dynamic = '$dynamique',methodical = '$methodique', optimist = '$optimiste', sensible = '$sensible', tidy = '$soigneux', voluntary = '$volontaire' where fkPortfolio = '$fkPortfolio'");
 }

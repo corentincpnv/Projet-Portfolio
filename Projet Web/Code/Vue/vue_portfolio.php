@@ -2,6 +2,7 @@
 $titre ='Portfolio';
 ob_start();
 $res=aproposUtilisateur();
+$fkPortfolio = $res['fkPortfolio'];
 $firstNameApropos = $res['firstName'];
 $lastNameApropos = $res['lastName'];
 $postalCodeApropos = $res['postalCode'];
@@ -32,8 +33,9 @@ $travelInterest = $res['travel'];
 $musicInterest = $res['music'];
 ?>
     <div class="formulaire">
-        <form method="post" action="" >
+        <form method="post" action="index.php?action=update" >
             <table id="apropos">
+                <input id="fkPortfolio" type="hidden" value="<?php echo $fkPortfolio; ?>">
                 <tr>
                     <td>Nom :</td>
                     <td><input id="prenom" type="text" value="<?php echo $firstNameApropos; ?>" name="prenom"></td>

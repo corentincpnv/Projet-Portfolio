@@ -12,14 +12,6 @@ function accueil()
 {
     require "vue/vue_exemple.php";
 }
-/**function fausse
-if (!isset($connexion)){
-    $connexion = login();
-}
-$login=$_SESSION['login'];
-$res=aproposUtilisateur();
-envoyerApropos($connexion, $login);
-*/
 
 function erreur($e)
 {
@@ -67,5 +59,12 @@ function login()
     } else {
         require "vue/vue_login.php";
     }
+}
+function logout()
+{
+    require "vue/vue_logout.php";
+    header('Location: index.php');
+}
+function update($Post){
 
 }
