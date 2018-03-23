@@ -68,3 +68,35 @@ function logout()
 function update($Post){
 
 }
+if (isset($_POST['action'])) {
+    $action = $_POST['action'];
+} else if (isset($_GET['action'])) {
+    $action = $_GET['action'];
+} else {
+    $action = 'display_customers';
+}
+
+if ($action == 'display_customers') {
+    $customers = getUsers();
+    include 'vue/customer-list.php';
+}
+else if ($action == 'vueAdmin') {
+    $customerID = $_GET['customerID'];
+    vueAdmin($customerID);
+    include 'vue/customer-information.php';
+}
+else if ($action == 'update_customer') {
+    $customerID = $_POST['customerID']; $firstName = $_POST['firstName']; $lastName = $_POST['lastName'];
+    $address = $_POST['address']; $city = $_POST['city']; $state = $_POST['state']; $postalCode = $_POST['postalCode'];
+    $countryCode = $_POST['countryCode']; $phone = $_POST['phone']; $email = $_POST['email'];
+
+    update_user($customerID, $firstName, $lastName, $address, $city, $state, $postalCode, $countryCode, $phone, $email);
+    $customers = getUsers();
+    include 'vue/customer-list.php';
+}
+else if ($action == 'deleteLogin') {
+    $idLogin = $_POST['customerID'];
+    delete_login($idLogin);
+    $uztilisateurs = getUsers();
+    include 'vue/vue_administrator.php';
+}

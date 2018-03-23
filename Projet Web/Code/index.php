@@ -32,6 +32,8 @@ try
             case 'changer_pwd' :
                 changePwd();
                 break;
+            case 'deleteLogin' :
+
             default :
                 throw new Exception("action non valide");
         }

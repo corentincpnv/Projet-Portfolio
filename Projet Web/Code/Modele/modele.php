@@ -93,10 +93,39 @@ function competencesUtilisateur(){
     }
     return $Retour;
 }
-function update($Post){
+/*function update($Post){
     $connexion = getBD();
     extract($_POST);
     $connexion->exec("update about set firstName = '$prenom', lastName = '$nom', postalCode = '$codepostal', address = '$address', addressNumber = '$numero', phoneNumber = '$numerodetelephone', mailAddress = '$email' where fkPortfolio = '$Post['fkPortfolio']'");
     $connexion->exec("update listofinterests set art = '$art', litterature = '$litterature', cinema = '$cinema', sport = '$sport', travel = '$voyage', music = '$musique'where fkPortfolio = '$fkPortfolio'");
     $connexion->exec("update listofqualities set ambitious = '$ambitieux', calm = '$calme', confident = '$confiant', disciplined = '$discipline', discreet = '$discret', dynamic = '$dynamique',methodical = '$methodique', optimist = '$optimiste', sensible = '$sensible', tidy = '$soigneux', voluntary = '$volontaire' where fkPortfolio = '$fkPortfolio'");
+}*/
+function getUsers() {
+    $connexion = getBD();
+    $query = "SELECT * FROM login ORDER BY loginName";
+    $users = $connexion->query($query);
+    return $users;
+}
+
+function delete_login($idLogin) {
+    $connexion = getBD();
+    $query = "DELETE FROM login WHERE idLogin = '$idLogin'";
+    $connexion->exec($query);
+}
+
+function update_user($idLogin, $loginName, $password, $loginType, $loginState) {
+    $connexion = getBD();
+    $query = "UPDATE customers
+              SET
+              loginName = '$loginName', password = '$password', loginType = '$loginType', loginState = '$loginState'
+              WHERE idLogin = '$idLogin' ";
+    $connexion->exec($query);
+}
+function vueAdmin ($customerID) {
+    global $db;
+    $query = "SELECT * FROM customers
+              WHERE customerID = '$customerID'";
+    $customerData = $db->query($query);
+    $customerData = $customerData->fetch();
+    return $customerData;
 }
