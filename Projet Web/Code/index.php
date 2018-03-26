@@ -32,6 +32,9 @@ try
             case 'changer_pwd' :
                 changePwd();
                 break;
+            case 'administrator' :
+                getUsers();
+                break;
             case 'deleteLogin' :
 
             default :

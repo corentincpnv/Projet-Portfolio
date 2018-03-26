@@ -115,17 +115,17 @@ function delete_login($idLogin) {
 
 function update_user($idLogin, $loginName, $password, $loginType, $loginState) {
     $connexion = getBD();
-    $query = "UPDATE customers
+    $query = "UPDATE login
               SET
               loginName = '$loginName', password = '$password', loginType = '$loginType', loginState = '$loginState'
               WHERE idLogin = '$idLogin' ";
     $connexion->exec($query);
 }
-function vueAdmin ($customerID) {
+/*function vueAdmin ($customerID) {
     global $db;
     $query = "SELECT * FROM customers
               WHERE customerID = '$customerID'";
     $customerData = $db->query($query);
     $customerData = $customerData->fetch();
     return $customerData;
-}
+}*/
