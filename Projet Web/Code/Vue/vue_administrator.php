@@ -3,12 +3,12 @@
 session_start();
 $titre ='Administrer Portfolio';
 ob_start();
-/*if(empty($_SESSION['login']))
+if(empty($_SESSION['login']))
 {
-    require "index.php";
+    require "../index.php";
     exit();
 }
-else {*/
+else {
 ?>
     <div id="main">
         <div id="content">
@@ -30,4 +30,4 @@ else {*/
     <?php /*}*/?>
 <?php
 $contenu = ob_get_clean();
-require "gabarit.php";?>
+require "gabarit.php";

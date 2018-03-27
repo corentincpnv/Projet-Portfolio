@@ -37,7 +37,7 @@ function login()
                     $resultats = getlogin();
                     // enregistrement du type en session
                     $_SESSION['login'] = $login;
-                    require "vue/vue_administrator.php";
+                    require "vue/vue_administrator_list.php";
                     exit();
                 }
                 if ($type[0] == 0){
@@ -85,17 +85,17 @@ else if ($action == 'vueAdmin') {
     vueAdmin($idLogin);
     include 'vue/user-information.php';
 }*/
-else if ($action == 'update_user') {
+else if ($action == 'updateLogin') {
     $idLogin = $_POST['idLogin']; $loginName = $_POST['loginName']; $password = $_POST['password'];
     $loginType = $_POST['loginType']; $loginState = $_POST['loginState'];
 
     update_user($idLogin, $loginName, $password, $loginType, $loginState);
     $users = getUsers();
-    include 'vue/user-list.php';
+    include 'vue/vue_administrator.php';
 }
 else if ($action == 'deleteLogin') {
     $idLogin = $_POST['idLogin'];
     delete_login($idLogin);
     $users = getUsers();
-    include 'vue/vue_administrator.php';
+    include 'vue/vue_administrator_list.php';
 }

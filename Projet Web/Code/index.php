@@ -29,14 +29,15 @@ try
             case 'logout' :
                 logout();
                 break;
-            case 'changer_pwd' :
-                changePwd();
-                break;
             case 'administrator' :
                 getUsers();
                 break;
+            case 'updateLogin' :
+                update_user($idLogin, $loginName, $password, $loginType, $loginState);
+                break;
             case 'deleteLogin' :
-
+                delete_login($idLogin);
+                break;
             default :
                 throw new Exception("action non valide");
         }
