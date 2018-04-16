@@ -12,7 +12,6 @@ function accueil()
 {
     require "vue/vue_exemple.php";
 }
-
 function erreur($e)
 {
     $_SESSION['erreur']=$e;
@@ -38,10 +37,9 @@ function login()
                     // enregistrement du type en session
                     $_SESSION['login'] = $login;
                     require "vue/vue_administrator_list.php";
-                    exit();
+
                 }
                 if ($type[0] == 0){
-
                     $_SESSION['login'] = $login;
                     require "vue/vue_portfolio.php";
                 }
@@ -91,7 +89,7 @@ else if ($action == 'updateLogin') {
 
     update_user($idLogin, $loginName, $password, $loginType, $loginState);
     $users = getUsers();
-    include 'vue/vue_administrator.php';
+    include 'vue/vue_administrator_list.php';
 }
 else if ($action == 'deleteLogin') {
     $idLogin = $_POST['idLogin'];

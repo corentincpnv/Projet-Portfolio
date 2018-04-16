@@ -33,7 +33,7 @@ $travelInterest = $res['travel'];
 $musicInterest = $res['music'];
 ?>
     <div class="formulaire">
-        <form method="post" action="index.php?action=update" >
+        <form  method="post" action="index.php?action=update" >
             <table id="apropos">
                 <input id="fkPortfolio" type="hidden" value="<?php echo $fkPortfolio; ?>">
                 <tr>

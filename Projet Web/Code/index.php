@@ -29,6 +29,9 @@ try
             case 'logout' :
                 logout();
                 break;
+            case 'exemple' :
+                accueil();
+                break;
             case 'administrator' :
                 getUsers();
                 break;
