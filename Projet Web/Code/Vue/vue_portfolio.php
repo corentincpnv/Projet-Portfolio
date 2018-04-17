@@ -84,7 +84,7 @@ $musicInterest = $res['music'];
                 </fieldset>
                 <fieldset id="interets">
                     <p id="interets"><label>Intérets :</label><br />
-                        <input type="checkbox" name="interets[]" value="art" <?php echo ($artInterest==1 ? 'checked' : '');?> >l'art<br />
+                        <input type="checkbox" name="interets[]" value="art" <?php echo ($artInterest==1 ? 'checked' : '');?> >L'art<br />
                         <input type="checkbox" name="interets[]" value="litterature" <?php echo ($litteratureInterest==1 ? 'checked' : '');?> >La littérature<br />
                         <input type="checkbox" name="interets[]" value="cinema" <?php echo ($cinemaInterest==1 ? 'checked' : '');?> >Le cinéma<br />
                         <input type="checkbox" name="interets[]" value="sport" <?php echo ($sportInterest==1 ? 'checked' : '');?> >Le sport<br />

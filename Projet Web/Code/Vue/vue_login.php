@@ -9,7 +9,12 @@ ob_start();
 </header>
 
 <?php
-
+// détruit la session de la personne connectée après appuyé sur Logout
+if (isset($_SESSION['login']))
+{
+    session_destroy();
+    header ("location:index.php");
+}
 if (isset($msg_err) && !empty($msg_err)) {
     echo $msg_err;
 }

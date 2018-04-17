@@ -49,8 +49,11 @@ function getPwdFromLogin($login)
 function aproposUtilisateur(){
 
     $connexion = getBD();
-
-    $login=$_SESSION['login'];
+    if (!isset($_SESSION['login'])){
+        $_SESSION['login']=[random_int(1, 1000)];
+        $login=$_SESSION['login'];
+    }
+    else $login=$_SESSION['login'];
     $requete="select * from about inner join portfolio on about.fkPortfolio = idPortfolio inner join login on idPortfolio = login.fkPortfolio where loginName = '$login'";
     $resultats = $connexion->query($requete);
     while ($ligne= $resultats ->fetch()){
@@ -121,11 +124,3 @@ function update_user($idLogin, $loginName, $password, $loginType, $loginState) {
               WHERE idLogin = '$idLogin' ";
     $connexion->exec($query);
 }
-/*function vueAdmin ($customerID) {
-    global $db;
-    $query = "SELECT * FROM customers
-              WHERE customerID = '$customerID'";
-    $customerData = $db->query($query);
-    $customerData = $customerData->fetch();
-    return $customerData;
-}*/

@@ -30,7 +30,7 @@ try
                 logout();
                 break;
             case 'exemple' :
-                accueil();
+                exemple();
                 break;
             case 'administrator' :
                 getUsers();

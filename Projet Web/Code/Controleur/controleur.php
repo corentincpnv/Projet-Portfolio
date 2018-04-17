@@ -10,7 +10,7 @@ require "Modele/modele.php";
 // Affichage de la page d'accueil
 function accueil()
 {
-    require "vue/vue_exemple.php";
+    require "vue/vue_accueil.php";
 }
 function erreur($e)
 {
@@ -96,4 +96,11 @@ else if ($action == 'deleteLogin') {
     delete_login($idLogin);
     $users = getUsers();
     include 'vue/vue_administrator_list.php';
+}
+if ($action == 'exemple'){
+    $idLogin = rand(1,1000);
+}
+function exemple()
+{
+    require "vue/vue_exemple.php";
 }

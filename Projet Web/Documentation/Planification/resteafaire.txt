@@ -1,0 +1,3 @@
+Page exemple.php
+au chargement de le page changer l'id de manière random 
+pour afficher des exemples différents
