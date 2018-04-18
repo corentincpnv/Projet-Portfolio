@@ -200,3 +200,10 @@ a:hover, a:focus, a:active {
     left: 54%;
     position: absolute;
 }
+.exemplePortfolio{
+  display: flex;
+  top: 9%;
+  left: 15%;
+  position: absolute;
+  line-height: 240%;
+}

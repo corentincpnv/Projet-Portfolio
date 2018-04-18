@@ -8,7 +8,7 @@
  */
 $titre ='Exemple Portfolio';
 ob_start();
-$res=aproposUtilisateur();
+$res=afficherPortfolio();
 $fkPortfolio = $res['fkPortfolio'];
 $firstNameApropos = $res['firstName'];
 $lastNameApropos = $res['lastName'];
@@ -18,7 +18,6 @@ $addressNumberApropos = $res['addressNumber'];
 $phoneNumberApropos = $res['phoneNumber'];
 $mailAddressApropos = $res['mailAddress'];
 
-$res=competencesUtilisateur();
 $ambitiousQuality = $res['ambitious'];
 $calmQuality = $res['calm'];
 $confidentQuality = $res['confident'];
@@ -39,42 +38,20 @@ $sportInterest = $res['sport'];
 $travelInterest = $res['travel'];
 $musicInterest = $res['music'];
 ?>
+    <div class="exemplePortfolio">
+        <title>Bienvenu sur mon Portfolio</title>
+        <p>Je m'appelle <?php echo $lastNameApropos; ?> <?php echo $firstNameApropos; ?>.<br>
+            J'habite <?php echo $postalCodeApropos; ?> <?php echo $addressApropos; ?> numéro : <?php echo $addressNumberApropos; ?>.<br>
+            Vous pouvez me joindre au : <?php echo $phoneNumberApropos; ?>.<br>Et à l'adresse email : <?php echo $mailAddressApropos; ?>.
+    </div>
     <div class="formulaire">
         <form>
             <table id="apropos">
                 <input disabled="disabled" id="fkPortfolio" type="hidden" value="<?php echo $fkPortfolio; ?>">
-                <tr>
-                    <td>Nom :</td>
-                    <td><input disabled="disabled" id="prenom" type="text" value="<?php echo $firstNameApropos; ?>" name="prenom"></td>
-                </tr>
-                <tr>
-                    <td>Prénom :</td>
-                    <td><input disabled="disabled" id="nom" type="text" value="<?php echo $lastNameApropos; ?>" name="nom"></td>
-                </tr>
-                <tr>
-                    <td>Code postal :</td>
-                    <td><input disabled="disabled" id="codepostal" type="text" value="<?php echo $postalCodeApropos; ?>" name="codepostal"></td>
-                </tr>
-                <tr>
-                    <td>Adresse :</td>
-                    <td><input disabled="disabled" id="address" type="text" value="<?php echo $addressApropos; ?>" name="address"></td>
-                </tr>
-                <tr>
-                    <td>Numéro :</td>
-                    <td><input disabled="disabled" id="numero" type="text" value="<?php echo $addressNumberApropos; ?>" name="numero"></td>
-                </tr>
-                <tr>
-                    <td>Numéro de téléphone :</td>
-                    <td><input disabled="disabled" id="numerodetelephone" type="text" value="<?php echo $phoneNumberApropos; ?>" name="numerodetelephone"></td>
-                </tr>
-                <tr>
-                    <td>Adresse e-mail :</td>
-                    <td><input disabled="disabled" id="email" type="text" value="<?php echo $mailAddressApropos; ?>" name="email"></td>
-                </tr>
             </table>
             <div class="modifydroite">
                 <fieldset id="competences">
-                    <p id="competences"><label>Compétences :</label><br />
+                    <p id="competences"><label>Mes compétences sont les suivantes :</label><br />
                         <input disabled="disabled" type="checkbox" name="competences[]" value="ambitieux" <?php echo ($ambitiousQuality==1 ? 'checked' : '');?> >Ambitieux<br />
                         <input disabled="disabled" type="checkbox" name="competences[]" value="calme" <?php echo ($calmQuality==1 ? 'checked' : '');?> >Calme<br />
                         <input disabled="disabled" type="checkbox" name="competences[]" value="confiant" <?php echo ($confidentQuality==1 ? 'checked' : '');?> >Confiant<br />
@@ -90,7 +67,7 @@ $musicInterest = $res['music'];
                     </p>
                 </fieldset>
                 <fieldset id="interets">
-                    <p id="interets"><label>Intérets :</label><br />
+                    <p id="interets"><label>Et mes centres d'intérets sont ceux-ci :</label><br />
                         <input disabled="disabled" type="checkbox" name="interets[]" value="art" <?php echo ($artInterest==1 ? 'checked' : '');?> >L'art<br />
                         <input disabled="disabled" type="checkbox" name="interets[]" value="litterature" <?php echo ($litteratureInterest==1 ? 'checked' : '');?> >La littérature<br />
                         <input disabled="disabled" type="checkbox" name="interets[]" value="cinema" <?php echo ($cinemaInterest==1 ? 'checked' : '');?> >Le cinéma<br />

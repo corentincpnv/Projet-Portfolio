@@ -23,9 +23,6 @@ try
             case 'login' :
                 login(); //appel de la fonction dans le controleur
                 break;
-            case 'update' :
-                update($Post); //appel de la fonction dans le controleur
-                break;
             case 'logout' :
                 logout();
                 break;

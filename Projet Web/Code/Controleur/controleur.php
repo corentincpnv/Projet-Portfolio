@@ -39,12 +39,12 @@ function login()
                     require "vue/vue_administrator_list.php";
 
                 }
-                if ($type[0] == 0){
+                elseif ($type[0] == 0){
                     $_SESSION['login'] = $login;
                     require "vue/vue_portfolio.php";
                 }
                 else {
-
+                    require "vue/vue_erreur.php";
                 }
             } else {
                 $msg_err= 'Le mot de passe est incorrect';
@@ -96,9 +96,6 @@ else if ($action == 'deleteLogin') {
     delete_login($idLogin);
     $users = getUsers();
     include 'vue/vue_administrator_list.php';
-}
-if ($action == 'exemple'){
-    $idLogin = rand(1,1000);
 }
 function exemple()
 {
