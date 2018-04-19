@@ -32,7 +32,7 @@ function login()
             if (($pwd == $pwdFromBD)) {
                 //on peut accéder au site. Attention ni la vue ni la fonction ci-dessous n'existe pas encore
                 $type = getLoginType($login);
-                if ($type == 1){
+                if ($type[0] == 1){
                     $resultats = getlogin();
                     // enregistrement du type en session
                     $_SESSION['login'] = $login;

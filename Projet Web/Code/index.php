@@ -42,9 +42,7 @@ try
                 throw new Exception("action non valide");
         }
     }
-    else
-        accueil();
-
+    else accueil();
 }
 catch (Exception $e)
 {

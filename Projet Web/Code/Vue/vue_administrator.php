@@ -12,7 +12,7 @@ else {
 ?>
     <div id="main">
         <div id="content">
-            <h2> Update Customer </h2>
+            <h2> Update User </h2>
             <form action="../index.php" method="post" id="aligned">
                 <input type="hidden" name="action" value="update_user" />
                 <input type="hidden" name="idLogin" id="idLogin" />
